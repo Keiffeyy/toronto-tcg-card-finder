@@ -7,7 +7,8 @@ urls = [
     'https://www.hobbiesville.com/search.php?search_query={}',
     'https://acgamesonline.crystalcommerce.com/products/search?q={}',
     'https://store.401games.ca/pages/search-results?q={}',
-    'https://bananagames.ca/search?q={}'
+    'https://bananagames.ca/search?q={}',
+    'https://www.animealley.ca/search?type=product&options%5Bprefix%5D=last&q={}'
 ]
 
 def __process_url(url_base, search):
